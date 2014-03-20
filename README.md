@@ -1,13 +1,12 @@
 # Sweet Shop Reaction Game
 
-**Introduction**
+##Introduction
 
 Some Penny Sweets or Candy can make great input devices for a game using a Raspberry Pi. You will learn how to turn a squiggy sweet into an input button for your Raspberry Pi. You will then create a quick reaction game in Scratch that counts how many times in 10 seconds a player can squeeze your sweet input device!
 
 
-**Requirements**
+##Requirements
 
-This guide assumes that you have the following:
 - A Raspberry Pi
 - Connected to a monitor or TV
 - A keyboard and mouse
@@ -20,7 +19,7 @@ This guide assumes that you have the following:
 - A cardboard box to put your Raspberry Pi and cables into
 - Some colouring pens/pencils to decorate your box.
 
-![alt text](image.png "Components")
+![](image.png "Components")
 
 ## Step 0: Set up your Raspberry Pi
 
@@ -34,13 +33,13 @@ You will be creating your program using ScratchGPIO rather than Scratch. [To dow
 The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in ScratchGPIO and animate it to open and close it's mouth.
 
 
-**Activity Checklist**
+###Activity Checklist
 
 1. On the desktop of your Raspberry Pi you should see a **ScratchGPIO** icon. To open it, double click the icon. It is very important that you use this version of Scratch and not the default application. 
 
     Click **Ok** to enable remote sensor connections.
     
-    ![alt text](scratchgpio.png "ScratchGPIO icon")
+    ![](scratchgpio.png "ScratchGPIO icon")
 
 2. Delete the Scratch Cat Sprite by **right clicking** on it with your mouse and selecting **delete**.
 
@@ -70,13 +69,13 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 14. Finally click on the **Green Flag** in the top right hand of the screen and you sould see your sprite face open and close it's mouth. 
 
-	![alt text](face-script.png "Face Script")
+	![](face-script.png "Face Script")
 
 ## Step 2: Design a Sweet Shop Background
 
 To make the game a little more interesting let's set the scene by changing the background from the deafult white to something a little more interesting, like a graidant colour or of sweets in a shop!
 
-**Activity Checklist**
+###Activity Checklist
 
 1. Click on the **stage** icon next to the sprites palette to change the background.
 
@@ -96,7 +95,7 @@ To make the game a little more interesting let's set the scene by changing the b
 Many people enjoy testing their reaction time against a clock. Let's create a reaction sytle game using ScratchGPIO that later on we can connect a squiggy sweet button to. The object of the game is to see how many times you can squeeze the sweet button in 10 seconds. 
 
 
-**Activity Checklist:**
+###Activity Checklist
 
 You will need to create two variables for this game, one to count the button presses and one to count time. 
 
@@ -116,7 +115,7 @@ You will need to create two variables for this game, one to count the button pre
 
 8. Inside the `if` block add the variable block `change counter by 1` and `play drum 48 for 0.2 beats`. You can select any drum noise that you like from the drop down menu.
 
-	![alt text](button-script.png "Button Script")
+	![](button-script.png "Button Script")
 
 To set a time limit for the game the counts upwards, you need to add two futher scripts:
 
@@ -130,7 +129,7 @@ To set a time limit for the game the counts upwards, you need to add two futher 
 
 5. Then add the sensing block `timer` inside the space on the `round' block. The completed block should look like:
 
-	![alt text](timer-script.png "Timer Script")
+	![](timer-script.png "Timer Script")
 
 6. Add another `when green flag clicked` control block to the scripts area and connect a `wait until` block to it.
 
@@ -140,14 +139,14 @@ To set a time limit for the game the counts upwards, you need to add two futher 
 
 9. Finally save your game by clicking on the save icon at the top of the screen. 
 
-	![alt text](timer-script2.png "Set Timer Script")
+	![](timer-script2.png "Set Timer Script")
 
 
 ## Step 4: Wire up your sweet button
 
 You will need to connect a sweet or piece of candy to your Raspberry Pi to act as an input device and test it.
 
-**Activity Checklist:**
+###Activity Checklist
 
 1. Take the metal paper clips and unfold them to make straight wires.
 
@@ -157,7 +156,7 @@ You will need to connect a sweet or piece of candy to your Raspberry Pi to act a
 
 4. Insert the paper clips into a soft sweet so that they are close to each other but not touching. 
 
-    ![alt text](gpio.png "Raspberry Pi GPIO header pins")
+    ![](gpio.png "Raspberry Pi GPIO header pins")
     
     Raspberry Pi GPIO header pins. The diagram above the pins shows the pin numbers. You will be using pin 3 and pin 25.
 
