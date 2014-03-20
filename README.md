@@ -189,7 +189,7 @@ Your sweet input device is not a real button, and will not give accurate results
 
 ## Step 5: Put it all in a box!
 
-Congratulations on making your Sweet Shop Reaction Game. If you have time, why not make and decorate a box to put the Raspberry Pi and cables into?
+Congratulations on making your sweet shop reaction game. If you have time, why not make and decorate a box to put the Raspberry Pi and cables in?
 
 
     
