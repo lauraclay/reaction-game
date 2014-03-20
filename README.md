@@ -7,16 +7,24 @@ Some penny sweets or candy can make great input devices for a game using a Raspb
 
 ##Requirements
 
-- ScratchGPIO downloaded and installed. [Use this guide to learn how to do this](http://cymplecy.github.io/scratch_gpio/)
+- Raspberry Pi
+- Micro USB power adaptor
+- An SD card with Raspbian already set up through NOOBS
+- USB keyboard
+- USB mouse
+- HDMI cable
+- A monitor or TV
+- ScratchGPIO downloaded and installed [Use this guide to learn how to do this](http://cymplecy.github.io/scratch_gpio/)
 - Two female to female jumper wires
 - Two metal paper clips or two dress pins
 - Some squashy sweets/candy like marshmallows or jelly babies
 - A cardboard box to put your Raspberry Pi and cables into
-- Some colouring pens/pencils to decorate your box.
+- Some colouring pens/pencils to decorate your box
 
 ![](image.png "Components")
 
 ## Step 0: Setting Up your Pi
+
 First check that you have all the parts you need to get your Raspberry Pi set up and working.
 
 - Raspberry Pi
