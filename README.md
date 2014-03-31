@@ -23,7 +23,7 @@ Some penny sweets or candy can make great input devices for a game using a Raspb
 
 ![](image.png "Components")
 
-## Step 0: Setting Up your Pi
+## Step 0: Setting up your Pi
 
 First check that you have all the parts you need to get your Raspberry Pi set up and working.
 
@@ -35,7 +35,7 @@ First check that you have all the parts you need to get your Raspberry Pi set up
 - HDMI cable
 - A monitor or TV
 
-###Activity Checklist
+###Activity checklist:
 
 1.	Place the SD card into the slot of your Raspberry Pi. It will only fit one way so be careful not to break the card. 
 2.	Next connect the HDMI cable from the monitor (or TV) to the HDMI port on the Pi and turn on your monitor. 
@@ -51,12 +51,12 @@ First check that you have all the parts you need to get your Raspberry Pi set up
 You will be creating your program using ScratchGPIO rather than Scratch. [To download and install ScratchGPIO see here](http://cymplecy.github.io/scratch_gpio/). It is very similar in almost all aspects. If you are not familiar with the Scratch interface then [see the Scratch Raspberry Pi Manual here on page 8](http://pi.cs.man.ac.uk/download/Raspberry_Pi_Education_Manual.pdf). We need to use ScratchGPIO so that you can make a button to control your game, using the General Purpose Input Output pins on the Raspberry Pi.
 
 
-## Step 1: Create a Sweet-Munching Sprite
+## Step 1: Create a sweet-munching sprite
 
 The sweet shop reaction game needs a munching face to entertain the player. You will draw a face using the paint editor in ScratchGPIO and animate it to open and close its mouth.
 
 
-###Activity Checklist
+###Activity checklist:
 
 1. On the desktop of your Raspberry Pi you should see a **ScratchGPIO** icon; to open ScratchGPIO, double click the icon. It is very important that you use this version of Scratch and not the default application. 
 
@@ -92,11 +92,11 @@ The sweet shop reaction game needs a munching face to entertain the player. You 
 
 	![](face-script.png "Face Script")
 
-## Step 2: Design a Sweet Shop Background
+## Step 2: Design a sweet shop background
 
 To make the game a little more interesting let's set the scene by changing the background from the default white to something else, like a gradient colour or some sweets in a shop!
 
-###Activity Checklist
+###Activity checklist:
 
 1. Click on the **stage** icon next to the sprites palette to change the background.
 
@@ -109,12 +109,12 @@ To make the game a little more interesting let's set the scene by changing the b
 4. When you are happy with your background click on **sprite1** in the sprites palette, ready to program the reaction game mechanics in the next step.
 
 
-## Step 3: Program the Sweet Shop Reaction Game Machanics
+## Step 3: Program the sweet shop reaction game mechanics
 
 Many people enjoy testing their reaction time against a clock. Let's create a reaction game using ScratchGPIO that we can connect a squashy sweet button to later on. The object of the game is to see how many times you can squeeze the sweet button in 10 seconds. 
 
 
-###Activity Checklist
+###Activity checklist:
 
 You will need to create two variables for this game: one to count the button presses and one to count time. 
 
@@ -165,7 +165,7 @@ To set a time limit for the game that counts upwards, you need to add two furthe
 
 You will need to connect a sweet or piece of candy to your Raspberry Pi to act as an input device, and test it.
 
-###Activity Checklist
+###Activity checklist:
 
 1. Take the metal paper clips and unfold them to make straight wires.
 
